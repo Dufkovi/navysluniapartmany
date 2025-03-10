@@ -25,10 +25,10 @@
       </a>
       <nav role="navigation" class="nav-menu w-nav-menu">
         <a href="/#" class="nav_link w-nav-link">Úvod</a>
-        <a href="apartmany.html" class="nav_link w-nav-link">Naše apartmány</a>
-        <a href="/apartmany#pekna-vyhlidka" class="nav_link w-nav-link">Rezervace - Pěkná vyhlídka</a>
-        <a href="/apartmany#u-lipy" class="nav_link w-nav-link">Rezervace - U Lípy</a>
-        <a href="kontakt.html" aria-current="page" class="nav_link w-nav-link w--current">Kontakt</a>
+        <a href="navysluniapartmany.cz/apartmany" class="nav_link w-nav-link">Naše apartmány</a>
+        <a href="navysluniapartmany.cz/apartmany#pekna-vyhlidka" class="nav_link w-nav-link">Rezervace - Pěkná vyhlídka</a>
+        <a href="navysluniapartmany.cz/apartmany#u-lipy" class="nav_link w-nav-link">Rezervace - U Lípy</a>
+        <a href="navysluniapartmany.cz/kontakt" aria-current="page" class="nav_link w-nav-link w--current">Kontakt</a>
       </nav>
       <div class="menu-button w-nav-button">
         <div class="icon w-icon-nav-menu"></div>
@@ -94,11 +94,11 @@
         <div class="footer-content">
           <div id="w-node-_9a4340e7-f8b3-098a-43b1-ad823bf14eda-3bf14ed3" class="footer-block">
             <div class="title-small">Odkazy</div>
-            <a href="/#" class="footer-link">Úvod</a>
-            <a href="apartmany.html" class="footer-link">Naše apartmány</a>
-            <a href="/apartmany#u-lipy" class="footer-link">Rezervace - U Lípy</a>
-            <a href="/apartmany#pekna-vyhlidka" class="footer-link">Rezervace - Pěkná vyhlídka</a>
-            <a href="kontakt.html" aria-current="page" class="footer-link w--current">Kontakt</a>
+            <a href="navysluniapartmany.cz" class="footer-link">Úvod</a>
+            <a href="navysluniapartmany.cz/apartmany" class="footer-link">Naše apartmány</a>
+            <a href="navysluniapartmany.cz/apartmany#u-lipy" class="footer-link">Rezervace - U Lípy</a>
+            <a href="navysluniapartmany.cz/apartmany#pekna-vyhlidka" class="footer-link">Rezervace - Pěkná vyhlídka</a>
+            <a href="navysluniapartmany.cz/kontakt" aria-current="page" class="footer-link w--current">Kontakt</a>
           </div>
           <div id="w-node-eca7f86b-849e-4437-4b95-e7329305953b-3bf14ed3" class="footer-block">
             <div class="title-small">Kontakt</div>
