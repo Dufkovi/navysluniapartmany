@@ -1028,6 +1028,11 @@ h3 {
     width: 100vw;
   }
 
+  .nav_link.w--current {
+    color: #fff;
+    background-color: #363636;
+  }
+
   .section_content.no-paddingbottom {
     padding-top: 20px;
   }
@@ -1111,6 +1116,10 @@ h3 {
   .form-block {
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .link-block-3.bot, .link-block-3.top {
+    color: #fff;
   }
 }
 
