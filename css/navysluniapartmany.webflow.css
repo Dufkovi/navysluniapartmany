@@ -39,7 +39,7 @@
 
 .w-checkbox-input--inputType-custom.w--redirected-checked {
   background-color: #3898ec;
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/static/custom-checkbox-checkmark.589d534424.svg');
+  background-image: url("https://d3e54v103j8qbb.cloudfront.net/static/custom-checkbox-checkmark.589d534424.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -101,7 +101,8 @@ h3 {
 }
 
 .hero_section {
-  background-image: linear-gradient(#00000080, #00000080), url('../images/jidelna-obyvak.jpeg');
+  background-image: linear-gradient(#00000080, #00000080),
+    url("../images/jidelna-obyvak.jpeg");
   background-position: 0 0, 50%;
   background-size: auto, cover;
   height: 100vh;
@@ -141,7 +142,7 @@ h3 {
   padding: 17px 32px;
   font-family: Oswald, sans-serif;
   font-size: 18px;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .button-hero:hover {
@@ -189,14 +190,14 @@ h3 {
 
 .navbar-button {
   z-index: 999;
-  grid-column-gap: .5rem;
-  grid-row-gap: .5rem;
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 0.5rem;
   text-transform: uppercase;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   padding: 0;
-  font-size: .8rem;
+  font-size: 0.8rem;
   display: block;
 }
 
@@ -268,8 +269,8 @@ h3 {
 }
 
 .navbar-button-wrapper {
-  grid-column-gap: .5rem;
-  grid-row-gap: .5rem;
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 0.5rem;
   align-items: center;
   display: flex;
 }
@@ -278,7 +279,7 @@ h3 {
   flex-direction: column;
   justify-content: space-between;
   width: 2rem;
-  height: .7rem;
+  height: 0.7rem;
   display: flex;
   position: relative;
 }
@@ -334,7 +335,7 @@ h3 {
 .nav_link {
   font-family: Oswald, sans-serif;
   font-size: 16px;
-  transition: all .2s;
+  transition: all 0.2s;
 }
 
 .nav_link:hover {
@@ -394,7 +395,8 @@ h3 {
   max-width: 970px;
 }
 
-.nav-menu, ._100_gallery {
+.nav-menu,
+._100_gallery {
   display: flex;
 }
 
@@ -410,7 +412,7 @@ h3 {
   padding: 17px 32px;
   font-family: Oswald, sans-serif;
   font-size: 18px;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .button-hero_black:hover {
@@ -556,7 +558,8 @@ h3 {
 }
 
 .hero_apartmany {
-  background-image: linear-gradient(#00000080, #00000080), url('../images/dum-zvenku-1.jpeg');
+  background-image: linear-gradient(#00000080, #00000080),
+    url("../images/dum-zvenku-1.jpeg");
   background-position: 0 0, 50%;
   background-size: auto, cover;
   height: 40vh;
@@ -577,7 +580,7 @@ h3 {
   grid-row-gap: 40px;
   flex-flow: row;
   grid-template-rows: auto auto;
-  grid-template-columns: .75fr 1fr;
+  grid-template-columns: 0.75fr 1fr;
   grid-auto-columns: 1fr;
   justify-content: flex-start;
   align-items: stretch;
@@ -597,7 +600,7 @@ h3 {
   grid-row-gap: 40px;
   flex-flow: row;
   grid-template-rows: auto auto;
-  grid-template-columns: 1fr .75fr;
+  grid-template-columns: 1fr 0.75fr;
   grid-auto-columns: 1fr;
   justify-content: flex-start;
   align-items: stretch;
@@ -665,7 +668,7 @@ h3 {
 .link-block {
   color: #333;
   text-decoration: none;
-  transition: all .2s;
+  transition: all 0.2s;
 }
 
 .link-block:hover {
@@ -734,6 +737,7 @@ h3 {
   justify-content: center;
   align-items: center;
   display: flex;
+  padding-left: 5px;
 }
 
 .link-block-3 {
@@ -798,7 +802,8 @@ h3 {
     padding-right: 20px;
   }
 
-  .paragraph_container, .paragraph_container_slider {
+  .paragraph_container,
+  .paragraph_container_slider {
     padding-left: 100px;
     padding-right: 100px;
   }
@@ -816,7 +821,8 @@ h3 {
     font-size: 55px;
   }
 
-  .grid_apartmany, .grid_apartmany-inv {
+  .grid_apartmany,
+  .grid_apartmany-inv {
     flex-flow: row;
     width: 100%;
   }
@@ -831,7 +837,8 @@ h3 {
     flex-flow: row;
   }
 
-  .link-block-3.bot, .link-block-3.top {
+  .link-block-3.bot,
+  .link-block-3.top {
     padding: 10px;
   }
 }
@@ -842,7 +849,8 @@ h3 {
   }
 
   .hero_section {
-    background-image: linear-gradient(#0009, #0009), url('../images/jidelna-obyvak.jpeg');
+    background-image: linear-gradient(#0009, #0009),
+      url("../images/jidelna-obyvak.jpeg");
     background-position: 0 0, 50%;
     background-size: auto, cover;
     height: auto;
@@ -1118,13 +1126,13 @@ h3 {
     padding-right: 10px;
   }
 
-  .link-block-3.bot, .link-block-3.top {
+  .link-block-3.bot,
+  .link-block-3.top {
     color: #fff;
   }
 }
 
-#w-node-_9a4340e7-f8b3-098a-43b1-ad823bf14eda-3bf14ed3, #w-node-eca7f86b-849e-4437-4b95-e7329305953b-3bf14ed3 {
+#w-node-_9a4340e7-f8b3-098a-43b1-ad823bf14eda-3bf14ed3,
+#w-node-eca7f86b-849e-4437-4b95-e7329305953b-3bf14ed3 {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
-
-
