@@ -5,6 +5,10 @@
   display: block;
 }
 
+.w-slider-mask {
+  background-color: white;
+}
+
 .w-checkbox {
   margin-bottom: 5px;
   padding-left: 20px;
@@ -89,6 +93,16 @@ h3 {
   font-size: 24px;
   font-weight: 400;
   line-height: 30px;
+}
+
+a {
+  color: #000;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #949494;
 }
 
 .hero-container {
@@ -389,6 +403,11 @@ h3 {
   padding-left: 135px;
   padding-right: 135px;
   display: flex;
+}
+
+.paragraph_container.width {
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .container_nav {
@@ -802,7 +821,16 @@ h3 {
     padding-right: 20px;
   }
 
-  .paragraph_container,
+  .paragraph_container {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .paragraph_container.width {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
   .paragraph_container_slider {
     padding-left: 100px;
     padding-right: 100px;
@@ -906,6 +934,11 @@ h3 {
   .paragraph_container {
     padding-left: 50px;
     padding-right: 50px;
+  }
+
+  .paragraph_container.width {
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .paragraph_content_block {
@@ -1045,7 +1078,8 @@ h3 {
     padding-top: 20px;
   }
 
-  .paragraph_container {
+  .paragraph_container,
+  .paragraph_container.width {
     padding-left: 0;
     padding-right: 0;
   }
@@ -1073,6 +1107,10 @@ h3 {
 
   .button-hero_black {
     font-size: 16px;
+  }
+
+  .paragraph_content_block {
+    width: 100%;
   }
 
   .paragraph_container_slider {

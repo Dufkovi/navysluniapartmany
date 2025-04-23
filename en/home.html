@@ -77,26 +77,32 @@
         <nav role="navigation" class="nav-menu w-nav-menu">
           <a
             href="https://navysluniapartmany.cz/en/home"
+            id="navlink1"
             class="nav_link w-nav-link"
             >Home</a
           >
           <a
             href="https://navysluniapartmany.cz/en/apartments"
-            class="nav_link w-nav-link"
+            aria-current="page"
+            id="navlink2"
+            class="nav_link w-nav-link w--current"
             >Our apartments</a
           >
           <a
             href="https://navysluniapartmany.cz/en/apartments#pekna-vyhlidka"
+            id="navlink3"
             class="nav_link w-nav-link"
-            >Reservation - Pěkná vyhlídka</a
+            >Reservation</a
           >
           <a
-            href="https://navysluniapartmany.cz/en/apartments#u-lipy"
+            href="https://navysluniapartmany.cz/en/activities"
+            id="navlink4"
             class="nav_link w-nav-link"
-            >Reservation - U Lípy</a
+            >Activities</a
           >
           <a
             href="https://navysluniapartmany.cz/en/contact"
+            id="navlink5"
             class="nav_link w-nav-link"
             >Contact</a
           >
@@ -529,8 +535,14 @@
               >
               <a
                 href="https://navysluniapartmany.cz/en/apartments"
-                class="footer-link"
+                aria-current="page"
+                class="footer-link w--current"
                 >Our apartments</a
+              >
+              <a
+                href="https://navysluniapartmany.cz/en/apartments#pekna-vyhlidka"
+                class="footer-link"
+                >Reservation - Pěkná vyhlídka</a
               >
               <a
                 href="https://navysluniapartmany.cz/en/apartments#u-lipy"
@@ -538,9 +550,9 @@
                 >Reservation - U Lípy</a
               >
               <a
-                href="https://navysluniapartmany.cz/en/apartments#pekna-vyhlidka"
+                href="https://navysluniapartmany.cz/en/activities"
                 class="footer-link"
-                >Reservation - Pěkná vyhlídka</a
+                >Activities</a
               >
               <a
                 href="https://navysluniapartmany.cz/en/contact"
@@ -568,9 +580,7 @@
       </div>
       <div class="footer-divider"></div>
       <div class="footer-copyright-center">
-        Copyright ©
-        <span class="copy-year">2024</span>
-        Apartmány Na Výsluní
+        Copyright © <span class="copy-year">2024</span> Apartmány Na Výsluní
       </div>
     </section>
     <script
